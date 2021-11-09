@@ -1,11 +1,10 @@
 {
-  "name": "chrome-extension-boilerplate-react",
-  "version": "4.2.0",
-  "description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
-  "license": "MIT",
+  "name": "espn-fantasy-hockey",
+  "version": "0.0.1",
+  "description": "A chrome extension to add features to ESPN Fantasy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": "https://github.com/m0xx/espn-fantasy-hockey-extension.git"
   },
   "scripts": {
     "build": "node utils/build.js",
@@ -14,6 +13,7 @@
   },
   "dependencies": {
     "@hot-loader/react-dom": "^17.0.1",
+    "cheerio": "^1.0.0-rc.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hot-loader": "^4.13.0"
